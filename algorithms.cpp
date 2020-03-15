@@ -2,7 +2,7 @@
 #include <random>
 #include <algorithm>
 #include <vector>
-#include "algorithms.h"
+#include "Algorithms.h"
 
 using namespace std;
 
@@ -41,7 +41,7 @@ namespace DrakeOnline {
         return randomNumbers;
     }
 
-    vector<int> Algorithm::subArraylist (void) {
+    vector<int> Algorithm::subVector (void) {
         vector<int> numbers;
 
         for(int i = 0; i < 47; i++) {

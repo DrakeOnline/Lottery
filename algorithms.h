@@ -7,7 +7,7 @@ namespace DrakeOnline {
         public:
             int* decrement ();
             int* knuthShuffle ();
-            std::vector<int> subArraylist (void);
+            std::vector<int> subVector (void);
             int generateRandomNumber(int, int);
     };
 
